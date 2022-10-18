@@ -1,0 +1,30 @@
+nav{
+    background-color: aqua;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+
+nav img{
+    height: 100%;
+}
+
+.hamburger-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav{
+        float: left;
+    }
+
+    .hamburger-mobile{
+        display: inline-block;
+        cursor: pointer;
+    }
+  }

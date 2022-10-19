@@ -14,7 +14,7 @@ nav{
 nav a{
     margin: 0 1rem;
     text-decoration: none;
-    
+    font-family: 'Karla', sans-serif;
 }
 
 nav a:hover{
@@ -35,6 +35,10 @@ header .nav-btn{
 
 @media only screen and (max-width: 1024px){
     
+    header{
+        padding: 2em;
+    }
+
     header .nav-btn{
         display: block;
         opacity: 1;
@@ -44,13 +48,14 @@ header .nav-btn{
         position: fixed;
         top: 0;
         left: 0;
+        padding-bottom: 15em;
         height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1.5em;
+        gap: 2em;
         background-color: hsl(270, 9%, 17%);
         transition: 1s;
         transform: translateY(-100vh);

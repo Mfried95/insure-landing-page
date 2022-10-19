@@ -3,7 +3,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 2em 5em;
-    background-color: aqua;
+    height: 5em;
 }
 
 nav{
@@ -35,11 +35,11 @@ header .nav-btn{
 
 .plan-btn{
     padding: 0.3em 1em;
-    border: solid white 2px;
+    border: solid black 2px;
 }
 
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 880px){
     
     header{
         padding: 2em;
@@ -88,4 +88,10 @@ header .nav-btn{
         color: white;
         font-size: 2rem;
     }
+
+    .plan-btn{
+        padding: 0.3em 1em;
+        border: solid white 2px;
+    }
+
 }

@@ -14,6 +14,7 @@ nav{
 nav a{
     margin: 0 1rem;
     text-decoration: none;
+    font-size: 1.25rem;
     font-family: 'Karla', sans-serif;
 }
 
@@ -30,6 +31,11 @@ header .nav-btn{
     display: none;
     opacity: 0;
     font-size: 1.8rem;
+}
+
+.plan-btn{
+    padding: 0.3em 1em;
+    border: solid white 2px;
 }
 
 
@@ -64,6 +70,12 @@ header .nav-btn{
     
     header .responsive-nav{
         transform: none;
+        background-image: url(../images/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-size: 40em;
+
     }
 
     nav .nav-close-btn{

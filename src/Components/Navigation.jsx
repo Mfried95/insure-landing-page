@@ -20,7 +20,7 @@ const showNavbar = () => {
             <a href="/#">How we work</a>
             <a href="/#">Blog</a>
             <a href="/#">Account</a>
-            <a href="/#">View Plans</a>
+            <a href="/#" className="plan-btn">View Plans</a>
 
             <div className="nav-btn nav-close-btn" onClick={showNavbar}>
                 <img src={Hamburger} alt="" />

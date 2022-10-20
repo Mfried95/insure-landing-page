@@ -1,0 +1,25 @@
+.line{
+    background-color: black;
+    border: solid 0.5px rgb(157, 88, 157);
+    width: 50%;
+    margin: 4em auto 1em;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-container h1{
+    text-align: center;
+    padding: 0
+}
+
+
+
+/* DESKTOP */
+@media only screen and (min-width: 880px){
+
+    
+}
+

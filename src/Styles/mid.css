@@ -8,11 +8,16 @@
 .mid-container{
     display: flex;
     flex-direction: column;
+    width: 88%;
+    margin: auto;
 }
 
 .mid-container h1{
-    text-align: center;
-    padding: 0
+    text-align: left;
+    padding: 0 2em;
+    font-size: 2rem;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 3px;
 }
 
 .card-container{
@@ -25,12 +30,20 @@
 .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    align-items: center;
     margin: auto;
-    padding: 0 2.25em;
     gap: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
+
+
+
+.card h2 {
+    text-align: left;
+}
+
 
 /* DESKTOP */
 @media only screen and (min-width: 880px){
@@ -41,9 +54,27 @@
 }
 
 .card{
-    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
     text-align: left;
+    margin: auto;
+    gap: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
+
+.card img{
+    width: 80px;
+}
+
+.mid-container h1{
+    text-align: left;
+    padding: 0 2.5em;
+    font-size: 3rem;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 3px;
+}
+
 
 }
 

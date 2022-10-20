@@ -1,0 +1,66 @@
+.banner-container{
+    height: 20em;
+    width: 90%;
+    margin: 5em auto;
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-container h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+}
+
+.banner-container button{
+    padding: 0.5em 1em;
+    background-color:  hsl(256, 26%, 20%);
+    border: solid white 1.5px;
+    color: white;
+    cursor: pointer;
+    width: 10em;
+    margin-top: 2em;
+}
+
+.banner-content{
+    margin: auto;
+    padding: 0 2em;
+}
+
+
+/* DESKTOP */
+@media only screen and (min-width: 880px){
+
+    .banner-container{
+        height: 12em;
+        background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
+        width: 80%;
+    }
+
+    .banner-container h2{
+        font-size: 2.5rem;
+        text-align: left;
+        margin: auto;
+        width: 9em;
+    }
+
+    .banner-container button{
+        margin: auto;
+        padding: 1em 2.5em;
+        width: 12.5em;
+        position: relative;
+    }
+    
+    .banner-content{
+        display: flex;
+        justify-content: space-around;
+        gap: 20em;
+    }
+
+}

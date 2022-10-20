@@ -14,8 +14,34 @@
     background-size: cover;
 }
 
+.hero-article{
+    background-image: url(../images/bg-pattern-intro-left-mobile.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 10em;
+    padding: 0 2em;
+    text-align: center;
+}
 
+.hero-article h1{
+    font-size: 2.5em;
+    padding-top: 2em;
+    font-family: 'DM Serif Display', serif;
+}
 
+.hero-article p{
+    margin-top: 1em;
+    line-height: 2rem;
+}
+
+.hero-article button{
+    margin-top: 2em;
+    padding: 0.5em 2em;
+    background-color:  hsl(256, 26%, 20%);
+    border: solid white 1.5px;
+    color: white;
+    cursor: pointer;
+}
 
 /* DESKTOP */
 @media only screen and (min-width: 880px){
@@ -29,6 +55,7 @@
 
    .hero-article{
     padding: 2em;
+    background-image: none;
    }
 
    .hero-img{

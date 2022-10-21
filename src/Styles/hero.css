@@ -62,6 +62,7 @@
    .hero-img{
     background-image: url(../images/image-intro-mobile.jpg);
     width: 100%;
+    max-width: 650px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,4 +85,7 @@
     font-size: 1.25rem;
    }
 
+   .hero-content{
+    max-width: 50%;
+   }
 }

@@ -12,7 +12,7 @@
     justify-content: baseline;
     gap: 2em;
     width: 100%;
-    padding: 0;
+    padding: 3em 0;
     margin: 0;
     background-image: url(../images/bg-pattern-footer-mobile.svg);
     background-repeat: no-repeat;
@@ -54,6 +54,13 @@
 }
 
 
+.fot-card{
+    margin-top: 2em;
+}
+
+.footer-line{
+    margin: auto;
+}
 
 @media only screen and (min-width: 880px){
 
@@ -91,7 +98,11 @@
 }
 
 .logo-content{
-    background-image: none;
+    background-image:  url(../images/bg-pattern-footer-desktop.svg);
+    background-size: 50em;
+    background-position: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .footer-line{

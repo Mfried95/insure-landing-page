@@ -33,6 +33,10 @@
     padding: 0 2em;
 }
 
+.banner-btn:hover{
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+}
 
 /* DESKTOP */
 @media only screen and (min-width: 880px){

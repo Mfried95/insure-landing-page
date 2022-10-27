@@ -40,9 +40,17 @@
     padding: 0.5em 2em;
     background-color:  hsl(256, 26%, 20%);
     border: solid white 1.5px;
-    color: white;
+    text-transform: uppercase;
+    color: white; 
     cursor: pointer;
 }
+
+
+.hero-article button:hover{
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+}
+
 
 /* DESKTOP */
 @media only screen and (min-width: 880px){
@@ -82,10 +90,10 @@
    }
 
    .hero-container button{
-    font-size: 1.25rem;
+    font-size: 1rem;
    }
 
    .hero-content{
-    max-width: 50%;
+    width: 40em;
    }
 }

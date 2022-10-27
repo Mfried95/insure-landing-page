@@ -19,6 +19,7 @@ const Footer = () => {
           
         </div>
       </div>
+      
       <div className="footer-line"></div>
 
       <div className="footer-container">

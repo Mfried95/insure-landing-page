@@ -36,10 +36,21 @@
 
 .links a{
     text-decoration: none;
+    color: hsl(270, 9%, 17%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .links h2{
     padding: 1em 0;
+    color: hsl(273, 4%, 51%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 
@@ -89,5 +100,7 @@
     padding: 0;
     border-bottom: solid black 1px;
 }
+
+
 
 }
